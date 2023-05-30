@@ -10,7 +10,7 @@ public class EmailSplitterTestClass {
         triggerConfig.ApexHandler__c='contactHandler';
         triggerConfig.SkipForUsers__c=null;
         
-        
+        system.debug('hello world');
         insert triggerConfig;
         
         // TriggerConfig__c   setting = TriggerConfig__c.getValues('Contact');
